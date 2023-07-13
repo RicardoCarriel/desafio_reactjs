@@ -25,6 +25,26 @@ ol, ul{
     line-height: 34px;
     height: 34px;
     margin-right: -1px;
-    margin-top: 1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
 
+.square:focus{
+    outline: none;
+}
+
+.kdv-navigation .square:focus{
+    background: #ddd;
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.game-info{
+    margin-left: 20px;
 }
